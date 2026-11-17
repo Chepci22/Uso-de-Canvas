@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#miCanvas {
+
+
+    border: 2px solid #9627a0;
+    background-image: linear-gradient(to right, rgb(255, 181, 255), yellow);
+    max-width: 100%;
+}
+
+
+.seccion-grafico {
+    text-align: center;
+    padding: 25px;
+}
+
+
+#canvasPlanta {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #c5d9b8;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(181, 244, 255), rgb(45, 186, 252));
+}
+
+
+.seccion-personalizada {
+    text-align: center;
+    padding: 25px;
+}
+
+
+#canvasPlantaPersonalizada {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #6ab7ee;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,rgb(186, 207, 255), rgb(138, 222, 235), rgb(254, 185, 255), rgb(255, 134, 213));
+}
+
+
+@media (max-width: 768px) {
+    .seccion-grafico,
+    .seccion-personalizada {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .seccion-grafico,
+    .seccion-personalizada {
+        padding: 10px;
+    }
+}
